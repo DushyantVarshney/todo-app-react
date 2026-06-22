@@ -1,0 +1,89 @@
+.app {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.15);
+}
+
+.app h1 {
+  margin: 0 0 16px;
+  font-size: 22px;
+}
+
+.add-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.add-row input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #d2d6dc;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+.add-row input:focus {
+  border-color: #6d59ff;
+}
+
+.add-row button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #6d59ff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border: 1px solid #eceef1;
+  border-radius: 10px;
+}
+
+.item .text {
+  cursor: pointer;
+  flex: 1;
+}
+
+.item.done .text {
+  text-decoration: line-through;
+  color: #9aa5b1;
+}
+
+.item .remove {
+  border: none;
+  background: transparent;
+  color: #c0c6cf;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.item .remove:hover {
+  color: #ef4444;
+}
+
+.empty {
+  text-align: center;
+  color: #9aa5b1;
+  font-size: 14px;
+  margin-top: 12px;
+}
