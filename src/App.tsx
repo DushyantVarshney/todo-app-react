@@ -30,14 +30,14 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1>My Todos</h1>
+      <h1>My Todosdfsfsdffsd</h1>
 
       <div className="add-row">
         <input
           value={text}
           onChange={(e) => setText(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && addTodo()}
-          placeholder="What needs doing?"
+          placeholder="What needs doingcxvxcvcxxcvc?"
         />
         <button onClick={addTodo}>Add</button>
       </div>
